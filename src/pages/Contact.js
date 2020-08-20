@@ -1,11 +1,12 @@
 import React from 'react';
 
-function Contact() {
-  return (
-    <div className="Contact">
+const Contact=() => (
+
+  <div className="Contact">
+    <div className="container">
       <h1>Contact</h1>
     </div>
-  );
-}
+  </div>
+);
 
 export default Contact;

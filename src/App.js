@@ -18,14 +18,14 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/recipies" component={Recipies} />
-              <Route path="/easyswaps" component={Easyswaps} />
-              <Route path="/contact" component={Contact} />
-            </Switch>
-          <Footer />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/recipies" component={Recipies} />
+            <Route path="/easyswaps" component={Easyswaps} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        <Footer />
       </div>
     </Router>
   );

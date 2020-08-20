@@ -20,15 +20,16 @@
   }
 }
 
-a {
-  text-decoration: none;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-nav li:hover {
-  text-decoration: none;
-  color: $red;
-}
+      .nav a {
+        color: $white;
+        text-decoration: none;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+      nav li:hover {
+        text-decoration: none;
+        color: $red;
+      }
 
 
 

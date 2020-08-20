@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "./components/brakepoints.scss";
 @import "./components/nav.scss";
+@import "./components/banner.scss";
 @import "./components/footer.scss";
 @import "./components/home.scss";
 @import "./components/about.scss";
@@ -13,8 +14,37 @@
   padding: 0;
 }
 
-body {
-    background: $white;
+body,
+html {
+  user-select: none;
+  background: $beige;
+  overscroll-behavior: none;
+  margin: 0;
+  font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+  .container {
+  width: 1560px;
+  min-width: 1560px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: $beige;
+  height: 300vh;
+  @include media("<=1560px") {
+    width: 1280px;
+    min-width: 1280px;
+  }
+  @include media("<=desktop") {
+    width: 1080px;
+    min-width: 1080px;
+  }
+  @include media("<=1080px") {
+    width: 100%;
+    min-width: 100%;
+  }
+}
 

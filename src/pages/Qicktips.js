@@ -1,11 +1,12 @@
 import React from 'react';
 
-function QuickTips() {
-  return (
-    <div className="QuickTips">
+const QuickTips=() => (
+
+  <div className="QuickTips">
+    <div className="container">
       <h1>QuickTips</h1>
     </div>
-  )
-}
+  </div>
+);
 
 export default QuickTips;

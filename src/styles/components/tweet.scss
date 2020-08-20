@@ -1,0 +1,24 @@
+.tweet {
+  min-width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-item: center;
+  padding: 5%;
+  .tweet-img {
+  min-width: 40%;
+  min-height: 100%;
+  background-image: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1597916086/fluffy_ho3ih0.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  .tweet-text {
+    min-width: 50%;
+    min-height: 100%;
+    padding: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+}
+
