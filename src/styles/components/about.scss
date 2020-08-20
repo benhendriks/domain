@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  .about-text {
+    width: 50%;
+      margin: auto;
+      padding-top: 48px;
+      p {
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+    }
+    img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 2% auto;
+    }
+}

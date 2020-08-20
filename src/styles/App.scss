@@ -31,7 +31,7 @@ html {
   margin: 0 auto;
   min-height: 100%;
   background: $beige;
-  height: 300vh;
+  min-height: 100vh;
   @include media("<=1560px") {
     width: 1280px;
     min-width: 1280px;
