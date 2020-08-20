@@ -16,7 +16,7 @@ const Home=() => (
     <div className="container">
       <div className="tweets">
         <div className="tweet">
-          <div class="tweet-text">
+          <div className="tweet-text">
             <h2>Welcome,</h2>
               <br />
                 <p>At the beginning of 2019, I made the decision to eat less
@@ -35,7 +35,7 @@ const Home=() => (
         </div>
         <div className="tweet">
           <img src="https://res.cloudinary.com/daf8fgekl/image/upload/v1597929812/almondmilk_dnm7yy.png" alt="almondmilk"/>
-            <div class="tweet-text">
+            <div className="tweet-text">
                 <h2>Milk,</h2>
                   <br />
                     <p>
@@ -74,7 +74,7 @@ const Home=() => (
               </div>
             </div>
         <div className="tweet">
-            <div class="tweet-text">
+            <div className="tweet-text">
               <h2>Deo,</h2>
                 <br />
                   <p>
@@ -95,7 +95,7 @@ const Home=() => (
         </div>
         <div className="tweet">
           <img src="https://res.cloudinary.com/daf8fgekl/image/upload/v1597930835/Reiniger_edhqra.jpg" alt="Cleaner"/>
-            <div class="tweet-text">
+            <div className="tweet-text">
               <h2>Cleaner,</h2>
                 <br />
                   <p>

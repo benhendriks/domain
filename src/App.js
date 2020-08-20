@@ -25,7 +25,7 @@ function App() {
             <Route path="/easyswaps" component={Easyswaps} />
             <Route path="/contact" component={Contact} />
           </Switch>
-        <Footer />
+          <Footer />
       </div>
     </Router>
   );
