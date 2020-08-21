@@ -1,33 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
+import { FaBars, FaTimes} from 'react-icons/fa';
 
-const Nav=() => (
+function Nav()  {
 
-  <div className="nav">
-    <nav>
-      <div className="logo">
-        <Link to="/">
-          <img src="" alt="gozerostayfluffy" />
-        </Link>
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click)
+
+  return (
+    <div className="navbar">
+      <div className="navbar-container nav-box">
+      <Link to="/" className="navbar-logo">
+        Go zero
+        stay fluffy
+      </Link>
+        <div className="menu-icon" onClick={handleClick}>
+          {click ? <FaTimes /> : <FaBars />}
+        </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className="nav-item">
+              <Link to="/about" className="nav-links">
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/recipies" className="nav-links">
+                Recipies
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/easyswaps" className="nav-links">
+                Easyswaps
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contact" className="nav-links">
+                Contact
+              </Link>
+            </li>
+          </ul>
       </div>
-        <ul className="nav-links">
-          <Link to="/about">
-            <li>About</li>
-          </Link>
-          <Link to="/recipies">
-            <li>Recipies</li>
-          </Link>
-          <Link to="/easyswaps">
-            <li>Easyswaps</li>
-          </Link>
-          <Link to="/contact">
-            <li>Contact</li>
-          </Link>
-        </ul>
-    </nav>
-  </div>
-);
-
+    </div>
+  );
+}
 
 export default Nav;
