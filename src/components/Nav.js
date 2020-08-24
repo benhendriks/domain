@@ -18,7 +18,6 @@ function Nav()  {
           <div className="navbar-container nav-box">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Go zero
-            stay fluffy
           </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

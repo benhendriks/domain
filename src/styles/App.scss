@@ -29,7 +29,6 @@ html {
   width: 1560px;
   min-width: 1560px;
   margin: 0 auto;
-  min-height: 100%;
   background: $beige;
   @include media("<=1560px") {
     width: 1280px;
@@ -44,4 +43,48 @@ html {
     min-width: 100%;
   }
 }
+
+.home {
+  @include media("<=tablet") {
+    .tweet {
+      display: flex;
+      flex-direction: column;
+      .tweet-text {
+        width: 80%;
+        p {
+          font-size: 16px;
+          letter-spacing: 1px;
+          line-height: 1.2;
+        }
+      }
+      img {
+      width: 80%;
+      height: 80%;
+      margin: auto;
+      }
+    }
+  }
+}
+
+.about {
+  @include media("<=tablet") {
+      display: flex;
+      flex-direction: column;
+    .about-text {
+      padding: 20px 0px;
+      p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+    }
+    img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    }
+  }
+}
+
 
