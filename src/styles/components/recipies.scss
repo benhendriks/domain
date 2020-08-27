@@ -1,0 +1,37 @@
+.recipies {
+  display: flex;
+  flex-direction: column;
+  .recipie {
+    display: flex;
+    justify-content: space-around;
+    align-item: center;
+    border-radius: 16px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $white;
+    margin: 12px;
+    padding: 32px;
+    .recipie-info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      h3 {
+        font-size: 24px;
+      }
+      img {
+        margin-top: 3%;
+        width: 500px;
+        height: 500px;
+        border-radius: 5%;
+      }
+    }
+    .recipie-details {
+      width: 50%;
+      p {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+    }
+  }
+}

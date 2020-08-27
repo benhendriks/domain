@@ -36,7 +36,7 @@ const Home=() => (
         <div className="tweet">
           <img src="https://res.cloudinary.com/daf8fgekl/image/upload/v1598372771/almond-milk_g2jcxb.png" alt="almondmilk"/>
             <div className="tweet-text">
-                <h2>Milk,</h2>
+                <h2>Almond milk,</h2>
                   <br />
                     <p>
                       The beginning of my journey: less dairy - better skin

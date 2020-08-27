@@ -5,14 +5,14 @@ const About=() => (
   <div className="container">
     <div className="about">
       <div className="about-text">
-        <h2>About me,</h2>
+        <h2>About,</h2>
           <br />
             <p>
               Welcome to my website, where I’ll be sharing my (ongoing) experience
               of going zero.
               <br/>
               <br/>
-              <h3 className="about-highlight">zero plastic, zero waste, zero bad vibes, …</h3>
+              zero plastic, zero waste, zero bad vibes,…
               <br/>
               Going zero is not one single, big overnight change, but consists
               of many little baby steps concerning changes ranging from food to
