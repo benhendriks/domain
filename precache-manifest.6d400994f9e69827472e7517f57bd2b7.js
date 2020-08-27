@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d89ba6462350154fcdcfb320ca549bf2",
+    "revision": "5c499ee4870aa1241adb64146a0e7399",
     "url": "/go-zero/index.html"
   },
   {
-    "revision": "00d6e72012bd90473a4f",
-    "url": "/go-zero/static/css/main.fbbc51b7.chunk.css"
+    "revision": "1af792adf651dba5054b",
+    "url": "/go-zero/static/css/main.99c4a06c.chunk.css"
   },
   {
     "revision": "13ba3b410e8212cda7e8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/go-zero/static/js/2.42a9e1b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00d6e72012bd90473a4f",
-    "url": "/go-zero/static/js/main.77573355.chunk.js"
+    "revision": "1af792adf651dba5054b",
+    "url": "/go-zero/static/js/main.6026f839.chunk.js"
   },
   {
     "revision": "fa3547829ac5fa0f3d6d",
